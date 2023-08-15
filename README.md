@@ -4,12 +4,15 @@ xLoader is an utility to program or flash HEX file onto ATmega328 and other AVR 
 # How to Use
 The following steps will help us use XLoader to upload HEX file on ATmega328 (Arduino Uno).
 
-1. Open xLoader
-2. Browse the HEX File from AVR Project/Atmeal Studio Project
-3. Select the device E.g. In case of Arduino Uno, it's ATmega328
-4. Select COM Port
-5. Select right baud rate in case of Arduino Uno it's 115200
-6. Finally hit Upload Button
+1. Download [xLoader.zip](https://github.com/chayanforyou/xLoader/releases/latest) file
+2. Unzip the `xLoader.zip`
+3. Insert __USB to TTL__ into an available USB port
+4. Execute `xLoader.exe`
+5. Browse the .hex File from AVR Project/Atmeal Studio Project
+6. Select the device E.g. In case of Arduino Uno, it's ATmega328
+7. Select COM Port. If no COM port is available, install proper USB driver
+8. Select right baud rate in case of Arduino Uno it's 115200
+9. Finally hit `Upload` Button
 
 <img src="/xloader_atmega328.jpg" alt="Girl in a jacket" align="center" width="400" height="300">
 
